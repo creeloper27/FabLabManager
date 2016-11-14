@@ -1,0 +1,9 @@
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\bin\Debug\FabLabManager.exe
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\bin\Debug\FabLabManager.pdb
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.csprojResolveAssemblyReference.cache
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.MainWindow.resources
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.Properties.Resources.resources
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.Subscriber.resources
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.csproj.GenerateResource.Cache
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.exe
+C:\Users\sala\Dropbox\FabLabManager\FabLabManager\obj\Debug\FabLabManager.pdb

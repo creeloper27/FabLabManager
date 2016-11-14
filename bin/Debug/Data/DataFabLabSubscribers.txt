@@ -1,0 +1,3 @@
+Marco;Salatin;16/04/1988;Via dei rododendri 14;Conegliano;31015;3881947558;marco.salatin@gmail.com;
+Lorenzo;Cattai;27/10/2001;Via Manin 9;Santa Lucia Di Piave;31025;0438/22882;lorenzo.cattai@gmail.com;
+Matteo;Bellotto;22/05/2001;Via Tasso 8;Santa Lucia Di Piave;31025;3399/229941;matteo.bellotto@gmail.com;
