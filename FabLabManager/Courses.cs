@@ -15,5 +15,17 @@ namespace FabLabManager
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Courses
+            // 
+            this.ClientSize = new System.Drawing.Size(544, 261);
+            this.Name = "Courses";
+            this.ResumeLayout(false);
+
+        }
     }
 }
