@@ -74,6 +74,36 @@ namespace FabLabManager {
 
         private void btnDeleteSubscriber_Click(object sender, EventArgs e) {
             FablabDB.deleteSubscriber(dataGridViewSubscribers.CurrentRow.Index);
+            //int (dataGridViewSubscribers.CurrentRow.Index);
+            ////string MyString = "\n";
+            ////Console.WriteLine("Hello{0}World!", MyString);
+            ////string TrimString = MyString.Trim();
+            ////Console.WriteLine("Hello{0}World!", TrimString);
+            //////       The example displays the following output:
+            //////             Hello Big   World!
+            //////             HelloBigWorld!
+
+            //char[] charsToTrim = { ' ' };
+            //string banner = "Much Ado \n AboutNothing\n ciao";
+
+            //QUI                \/
+
+            //banner = banner.Replace("\n", " ");
+
+            //QUI                /\
+
+            //string result = banner.Trim(charsToTrim);
+            //Console.WriteLine("Trimmmed\n   {0}\nto\n   '{1}'", banner, result);
+            //// The example displays the following output:
+            ////       Trimmmed
+            ////          *** Much Ado About Nothing ***
+            ////       to
+            ////         
+
+
+            //Console.ReadLine();
+
+            //USAR . REPLACE CHE TOGLIE OGNI \N CON ALTRO (NULL)
         }
 
         private void btnHome_Click(object sender, EventArgs e) {

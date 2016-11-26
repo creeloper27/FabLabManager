@@ -17,3 +17,5 @@ C:\Users\A\Documents\GitHub\FabLabManager\FabLabManager\obj\Debug\FabLabManager.
 C:\Users\A\Documents\GitHub\FabLabManager\FabLabManager\obj\Debug\FabLabManager.Subscriber.resources
 C:\Users\A\Documents\GitHub\FabLabManager\FabLabManager\obj\Debug\FabLabManager.csproj.GenerateResource.Cache
 C:\Users\A\Documents\GitHub\FabLabManager\FabLabManager\obj\Debug\FabLabManager.Courses.resources
+C:\Users\Utente\Documents\GitHub\FabLabManager\FabLabManager\obj\Debug\FabLabManager.exe
+C:\Users\Utente\Documents\GitHub\FabLabManager\FabLabManager\obj\Debug\FabLabManager.pdb
