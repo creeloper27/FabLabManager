@@ -328,8 +328,9 @@
             this.btnAddCourse.Name = "btnAddCourse";
             this.btnAddCourse.Size = new System.Drawing.Size(180, 38);
             this.btnAddCourse.TabIndex = 0;
-            this.btnAddCourse.Text = "Add\r\ncourse";
+            this.btnAddCourse.Text = "Add\r\nCourse";
             this.btnAddCourse.UseVisualStyleBackColor = true;
+            this.btnAddCourse.Click += new System.EventHandler(this.btnAddCourse_Click);
             // 
             // btnEditCourse
             // 
@@ -338,7 +339,7 @@
             this.btnEditCourse.Name = "btnEditCourse";
             this.btnEditCourse.Size = new System.Drawing.Size(180, 38);
             this.btnEditCourse.TabIndex = 1;
-            this.btnEditCourse.Text = "Edit\r\ncourse";
+            this.btnEditCourse.Text = "Edit\r\nCourse";
             this.btnEditCourse.UseVisualStyleBackColor = true;
             // 
             // btnDeleteCourse
@@ -348,7 +349,7 @@
             this.btnDeleteCourse.Name = "btnDeleteCourse";
             this.btnDeleteCourse.Size = new System.Drawing.Size(181, 38);
             this.btnDeleteCourse.TabIndex = 2;
-            this.btnDeleteCourse.Text = "Delete\r\ncourse";
+            this.btnDeleteCourse.Text = "Delete\r\nCourse";
             this.btnDeleteCourse.UseVisualStyleBackColor = true;
             // 
             // dataGridViewCourses

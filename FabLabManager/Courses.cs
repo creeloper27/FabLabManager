@@ -24,7 +24,13 @@ namespace FabLabManager
             // 
             this.ClientSize = new System.Drawing.Size(544, 261);
             this.Name = "Courses";
+            this.Load += new System.EventHandler(this.Courses_Load);
             this.ResumeLayout(false);
+
+        }
+
+        private void Courses_Load(object sender, EventArgs e)
+        {
 
         }
     }

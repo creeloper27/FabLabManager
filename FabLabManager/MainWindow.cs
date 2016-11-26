@@ -88,6 +88,12 @@ namespace FabLabManager {
             tabControl1.SelectedIndex = 2;
 
         }
+
+        private void btnAddCourse_Click(object sender, EventArgs e)
+        {
+            Courses formCourses = new Courses();
+            formCourses.ShowDialog();
+        }
     }
 }
             
