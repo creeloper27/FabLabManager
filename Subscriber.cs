@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace FabLabManager {
     public partial class Subscriber : Form {
 
@@ -67,23 +68,51 @@ namespace FabLabManager {
         }
 
         private void btnAddSubscribers_Click(object sender, EventArgs e) {
-            FablabDB.addNewSubscriber(txtName.Text, 
-                                      txtSurname.Text, 
-                                      txtDateOfBirth.Text, 
-                                      txtAddress.Text, 
-                                      txtCity.Text,
-                                      txtCountry.Text,
-                                      txtPostcode.Text, 
-                                      txtTelephone.Text, 
-                                      txtEmail.Text);
+            if (id_subscriber != -1) {
+                // Edit Subscriber
+                FablabDB.editSubscriber(id_subscriber,
+                                        txtName.Text,
+                                        txtSurname.Text,
+                                        txtDateOfBirth.Text,
+                                        txtAddress.Text,
+                                        txtCity.Text,
+                                        txtCountry.Text,
+                                        txtPostcode.Text,
+                                        txtTelephone.Text,
+                                        txtEmail.Text);
+            } else {
+                // New Subscriber
+                FablabDB.addSubscriber(txtName.Text,
+                                          txtSurname.Text,
+                                          txtDateOfBirth.Text,
+                                          txtAddress.Text,
+                                          txtCity.Text,
+                                          txtCountry.Text,
+                                          txtPostcode.Text,
+                                          txtTelephone.Text,
+                                          txtEmail.Text);
+            }
             Close();
         }
 
+
         private void Subscriber_Load(object sender, EventArgs e) {
-            if(id_subscriber != -1) 
-                btnAddSubscribers.Text = "Edit";    
-            
-              
+            if (id_subscriber != -1) {
+                // Edit Subscriber
+                string[] subscriber_array = new string[8];
+                btnAddSubscribers.Text = "Edit";
+                subscriber_array = FablabDB.loadSubsciber(id_subscriber);
+                txtName.Text = subscriber_array[0];
+                txtSurname.Text = subscriber_array[1];
+                txtDateOfBirth.Text = subscriber_array[2];
+                txtAddress.Text = subscriber_array[3];
+                txtCity.Text = subscriber_array[4];
+                txtCountry.Text = subscriber_array[5];
+                txtPostcode.Text = subscriber_array[6];
+                txtTelephone.Text = subscriber_array[7];
+                txtEmail.Text = subscriber_array[8];
+            }
         }
+
     }
 }

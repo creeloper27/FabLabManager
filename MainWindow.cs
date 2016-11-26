@@ -19,7 +19,7 @@ namespace FabLabManager {
 
         private void MainWindow_Load(object sender, EventArgs e) {
             FablabDB.startController();
-            FablabDB.showSubscriber();
+            FablabDB.showAllSubscribers();
             updateGridSubscribers();
         }
 
@@ -40,6 +40,7 @@ namespace FabLabManager {
             dataGridViewSubscribers.Columns[6].Name = "Postcode";
             dataGridViewSubscribers.Columns[7].Name = "Telephone";
             dataGridViewSubscribers.Columns[8].Name = "Email";
+            
 
             using (StreamReader inputFile = File.OpenText(FablabDB.directoryData + "/" + FablabDB.fileSubscribers)) {
                 string line = "";
@@ -69,6 +70,10 @@ namespace FabLabManager {
             Subscriber formSubscriber = new Subscriber(dataGridViewSubscribers.CurrentRow.Index);
             formSubscriber.ShowDialog();
             updateGridSubscribers();
+        }
+
+        private void btnDeleteSubscriber_Click(object sender, EventArgs e) {
+            FablabDB.deleteSubscriber(dataGridViewSubscribers.CurrentRow.Index);
         }
     }
 }

@@ -182,6 +182,7 @@
             this.btnDeleteSubscriber.TabIndex = 2;
             this.btnDeleteSubscriber.Text = "Delete\r\nSubscriber";
             this.btnDeleteSubscriber.UseVisualStyleBackColor = true;
+            this.btnDeleteSubscriber.Click += new System.EventHandler(this.btnDeleteSubscriber_Click);
             // 
             // tabPage2
             // 

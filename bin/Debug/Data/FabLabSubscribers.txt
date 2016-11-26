@@ -1,8 +1,3 @@
-d;d;dd;d;d;d;d;d;
-m;m;m;m;m;m;m;m;
-Marco;Salatin;167;sd;sdasd;asdasd;asdasd;sdasd;
-asd;asd;sda;sdasd;asdasd;da;asda;asdasd;
-nome;cognome;data;indirizzo;città;codice postale;telefono;email;
-nome;cognome;dat;indirizzo;città;nazione;codice postale;telefono;email;
-asdasda;asdasd;sdasd;asdasd;dasd;asdasd;asdasd;asdas;asdasd;
-;;;;;;;;;
+1;1;1;1;1;1;1;1;1;
+d;d;ddd;dd;dd;d;d;d;d;
+g;g;g;g;g;gg;g;g;g;
