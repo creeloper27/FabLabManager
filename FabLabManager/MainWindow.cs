@@ -75,6 +75,19 @@ namespace FabLabManager {
         private void btnDeleteSubscriber_Click(object sender, EventArgs e) {
             FablabDB.deleteSubscriber(dataGridViewSubscribers.CurrentRow.Index);
         }
+
+        private void btnHome_Click(object sender, EventArgs e) {
+            tabControl1.SelectedIndex = 0;
+        }
+
+        private void btnSubscribers_Click(object sender, EventArgs e) {
+            tabControl1.SelectedIndex = 1;
+        }
+
+        private void btnCourses_Click(object sender, EventArgs e) {
+            tabControl1.SelectedIndex = 2;
+
+        }
     }
 }
             
